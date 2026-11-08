@@ -4,10 +4,6 @@ Jiahui Qu, Wenqian Dong, Yusen Zhu, Yunsong Li, Qian Du
 
 **Keywords:** few-shot classification, class-incremental learning, image generation, image matching, prompt learning
 
-## Abstract
-
-With the continuous advancement of remote sensing interpretation technology, class-incremental tasks that can dynamically adapt to new categories have attracted growing research attention. However, under scenarios with continually increasing categories, models often face a severe imbalance between stability and plasticity, an issue that becomes particularly pronounced in few-shot settings. To address the stability-plasticity dilemma in few-shot class-incremental learning, this paper proposes dual-augmented contrastive prompt network (DCPNet), which enhances learning on new classes with limited samples through multiple data augmentation strategies and maintains stability for old knowledge by integrating a dynamic prompt learning network with a replay mechanism. Specifically, to address the plasticity challenge for novel classes under few-shot conditions, this paper proposes a joint retrieval and generation module (JRGM), which enriches reliable augmented data from multiple perspectives, thereby effectively enhancing the model's representational and adaptive capacity for new categories. Building upon this, we further propose a dynamic prompt-based contrastive incremental module (DPICM) to address the few-shot class-incremental classification task. This module enhances feature discriminability in few-shot scenarios by performing contrastive encoding between augmented and real samples, while effectively balancing stability and plasticity in class-incremental learning through the integration of dynamic prompt learning and a clustering-based replay mechanism. Evaluated on widely used remote sensing datasets, DCPNet effectively alleviates the stability-plasticity dilemma under limited samples.
-
 ## Method
 
 ### Overview of DCPNet
