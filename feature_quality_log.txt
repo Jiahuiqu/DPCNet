@@ -1,0 +1,1 @@
+epoch,batch_idx,sample_idx,class_id,norm,quality,update_decision
